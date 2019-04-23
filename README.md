@@ -1,9 +1,10 @@
 # pikapi
 
-![pokemon](http://images6.fanpop.com/image/polls/1192000/1192334_1363471326113_full.jpg)
+![pokemon](https://pbs.twimg.com/media/CCg5BAZW4AMgMCe.jpg)
 
 API: ```https://pokeapi.co/```
-End goal: Pokemon SMS news
+
+End goal: Pokemon SMS directly to your phone!
 
 Features (so far):
 
