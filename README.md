@@ -4,10 +4,9 @@
 
 API: ```https://pokeapi.co/```
 
-End goal: Pokemon SMS directly to your phone!
-
-Features (so far):
+Features:
 
 * Display a random pokemon by its pokedex number
 * Outputs result to a ```.txt``` file
-
+* Send SMS of pokemon with sprite link + text info
+* Generates a HTML file to render pokemon sprites + info
