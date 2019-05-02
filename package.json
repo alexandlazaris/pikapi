@@ -1,0 +1,22 @@
+{
+  "name": "pikapi",
+  "version": "1.0.0",
+  "description": "```API: https://pokeapi.co/```",
+  "main": "sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandlazaris/pikapi.git"
+  },
+  "author": "Alexander Lazaris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandlazaris/pikapi/issues"
+  },
+  "homepage": "https://github.com/alexandlazaris/pikapi#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
