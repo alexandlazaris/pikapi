@@ -18,7 +18,6 @@
   "homepage": "https://github.com/alexandlazaris/pikapi#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "create-html": "^4.1.0",
     "node-fetch": "^2.3.0"
   }
 }
