@@ -62,14 +62,14 @@ async function getMultiplePokemon(partySize) {
   return pokemonMap;
 }
 
-getOnePokemon().then((response) => {
-  console.log(response);
-});
-
-// getMultiplePokemon(6).then((map) => {
-//   console.log(map.entries());
-//   return (mapObjects = map.values);
+// getOnePokemon().then((response) => {
+//   console.log(response);
 // });
+
+getMultiplePokemon(6).then((map) => {
+  console.log(map.entries());
+  return (mapObjects = map.values);
+});
 
 // module.exports = checkService();
 // module.exports = getOnePokemon();
