@@ -1,4 +1,3 @@
-/.vscode
-package-lock.json
 data.txt
 logfile.log
+node_modules/
