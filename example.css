@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+p,
+th,
+td,
+h1 {
+  color: white;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border-color: silver;
+  border-style: outset;
+}

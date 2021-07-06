@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alexandlazaris/pikapi#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "node-fetch": "^2.3.0"
   }
 }
