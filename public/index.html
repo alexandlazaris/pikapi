@@ -3,8 +3,8 @@
   <head>
     <title>Pikapi</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.png" />
-    <meta name="description" content="example" />
     <link rel="stylesheet" href="../example.css" />
     <script type="text/javascript" src="./fetchPokemon.js"></script>
     <script>
@@ -13,30 +13,12 @@
   </head>
   <body>
     <h1>Pikapi</h1>
-    <div style="width: 100%">
-      <table>
-        <tr>
-          <th>Pokemon</th>
-          <th>Base stat total</th>
-          <th>Type</th>
-          <th>Sprite</th>
-        </tr>
-        <tr>
-          <td id="name">loading...</td>
-          <td id="baseStatTotal">loading...</td>
-          <td id="type">loading...</td>
-          <td>
-            <img
-              id="sprite1"
-              src="loading..."
-              width="150px"
-              height="150px"
-              alt="loading..."
-            />
-          </td>
-        </tr>
-      </table>
-      <p>Load pokemon client side on each refresh.</p>
+    <p>Load pokemon client side on each refresh.</p>
+    <div id="message">
+      <p id="name">loading...</p>
+      <p id="baseStatTotal">loading...</p>
+      <p id="type">loading...</p>
+      <img id="sprite1" src="loading..." width="150px" height="150px" alt="loading..."/>
     </div>
   </body>
 </html>

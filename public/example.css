@@ -1,0 +1,46 @@
+body {
+  background-color: #e0e1dd;
+}
+p,
+th,
+td,
+h1 {
+  color: black;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+
+#name, 
+#baseStatTotal, 
+#type {
+  border-style: inset;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border-color: silver;
+  border-style: outset;
+}
+#message { background: #d5d4c4; max-width: 360px; margin: 100px auto 16px; padding: 10px 10px; border-radius: 3px; border-style: double; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  text-align: center;
+  border-style: inset;
+}

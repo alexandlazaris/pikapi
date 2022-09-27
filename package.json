@@ -1,7 +1,7 @@
 {
   "name": "pikapi",
   "version": "1.0.0",
-  "description": "```API: https://pokeapi.co/```",
+  "description": "Having fun with https://pokeapi.co",
   "main": "sms.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
