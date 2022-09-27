@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pikapi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="./example.css" />
+    <script type="text/javascript" src="./fetchPokemon.js"></script>
+    <script>
+      window.onload = fetchRandomPokemon();
+    </script>
+  </head>
+  <body>
+    <h1>Pikapi</h1>
+    <p>Load pokemon client side on each refresh.</p>
+    <div id="message">
+      <p id="name">loading...</p>
+      <p id="baseStatTotal">loading...</p>
+      <p id="type">loading...</p>
+      <img id="sprite1" src="loading..." width="150px" height="150px" alt="loading..."/>
+    </div>
+  </body>
+</html>
